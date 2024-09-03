@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(40, 40, 40);
+  color: white;
+}
+.name_1 {
+  justify-content: end;
+}
+
+h4 {
+  color: aqua;
+  font-weight: 300;
+}
+
+/* Justify-content is used on Flex Container */
+
+.container {
+  display: flex;
+}
+.boxes {
+  /* border: 0.1px solid; */
+  width: 99px;
+  height: 99px;
+  text-align: center;
+  /* font-size: 30px; */
+}
+
+/* Margin-Auto is used on Flex Items */
+#box1 {
+  /* background-color: green; */
+  height: 155px;
+  width: 655px;
+  /* flex-grow: 1; */
+}
+
+#name {
+  justify-content: end;
+  margin-bottom: 15px;
+}
+
+#name2 {
+  font-weight: 500;
+  font-size: 30px;
+  color: turquoise;
+}
+
+#box1 img {
+  width: 40%;
+  height: auto;
+  margin-right: 200px;
+  fle
+  /* object-fit: cover; */
+}
+
+#box2 {
+  height: 155px;
+  width: 555px;
+}
+#box3 {
+  /* background-color: blueviolet; */
+  width: auto;
+  height: 155px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headshot {
+  width: 100px;
+}
+
+#jobTitle {
+  color: aqua;
+  font-weight: 300;
+}
